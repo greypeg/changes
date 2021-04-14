@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.NavbarMini{
+    background-color:#C4C4C4;
+    color: #FFFFFF;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    max-height: 25px;
+}
+
+@media (min-width: 1922px) and (max-width: 2560px)
+{
+    .alignmentFix{
+        margin-left: -0.8%;
+    }
+}

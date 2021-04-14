@@ -1,0 +1,54 @@
+body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+button:hover{
+  cursor: pointer;
+}
+.Navbar .leftSide #hidden{
+  
+  
+}
+.Navbar .leftSide #hidden a{
+}
+
+
+
+@media only screen and (max-width: 850px){
+  .Navbar .rightSide .links a{
+    font-size:20px;
+  }
+}
+@media only screen and (max-width: 750px){
+  .Navbar .rightSide .links a{
+    font-size:15px;
+  }
+}
+@media only screen and (max-width: 650px){
+  .Navbar .rightSide button{
+    display:flex;
+    background-color: white; 
+    border: 2px solid #72A0C1;
+    text-decoration: none;
+    outline:none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .Navbar .rightSide .links{
+    display:none;
+  }
+
+  .Navbar .rightSide .links #hidden{
+    position: absolute;
+    left:0px;
+    top:80px;
+    height: 230px;
+    width: 100%;
+    background-color: #C29372;
+  }
+}

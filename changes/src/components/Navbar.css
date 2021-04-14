@@ -1,0 +1,97 @@
+.Navbar{
+    background-color: #906449;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar .leftSide{
+    color:white;
+}
+
+
+@media only screen and (max-width: 3840px){
+    .links a{
+        text-decoration: underline;
+        text-decoration-style: solid;
+        font-family: 'Redressed';
+        font-size: 36px;
+        color: white;
+        text-decoration-skip-ink: none;
+    }
+
+    button{
+        display:none;
+    }
+    .logo{
+        height:73px;
+    }
+
+    .centerSide, .rightSide{
+        padding-top: .5%;
+        padding-bottom: .5%;
+    }
+    .centerSide input{
+        height: 50px;
+        width: 80%;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .links a:hover{
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 1730px){
+    .links a{
+      font-size: 30px;
+    }}
+
+@media only screen and (max-width: 1330px)
+{
+    .links a{
+     font-size:30px;
+    }
+}
+@media only screen and (max-width: 1200px)
+{
+    .links a{
+     font-size:25px;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .links a{
+     font-size:25px;
+    }
+}
+@media only screen and (max-width: 761px){
+    .links a{
+        font-size:25px;
+    }
+}
+@media only screen and (max-width: 650px)
+{
+    .links a{
+     display: none;;
+    }
+    #hidden{
+        position: absolute;
+        top:80px;
+        left:0px;
+        height:230px;
+        width:100%;
+        background-color: #906449;
+    }
+    .leftSide{
+        display: none;
+    }
+}
+.Navbar .rightSide{
+    color:black;
+}
+
+
+
+/* background: url('https://api.iconify.design/bx:bx-search.svg') no-repeat right center / contain; */
+.Navbar .centerSide .iconify { color:gray;}
